@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap');
+
+
+/* template {
+    margin-bottom: 300px;
+} */
+
+#header {
+    margin-top: 20px;
+  font-family: 'Noto Sans SC';
+}
+
+#header .favorit, .keranjang {
+  width: 30px;
+  height: auto;
+}
+
+#header .form-control {
+  border: 1px solid #FC930A;
+}
+
+#header .btn-outline-warning:hover {
+  background: #EBEAE7;
+  color: #FC930A;
+  /* border: none; */
+}
+
+#header .btn-success{
+    background: #6AD675;
+    border: 1px solid #6AD675;
+}
+
+#header .btn-success:hover{
+    background: #4aaa54;
+    border: 1px solid #6AD675;
+}
+
+/* Banner Syna */
+#banner .bg-banner {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to right, #C83838 , #FFB11E );
+    border-radius: 30px;
+    color: white;
+}
+
+#banner .content {
+  padding: 3rem;
+  margin-top: 5rem;
+}
+
+#banner .btn-outline-light {
+  width: 185px ;
+  height: auto;
+  margin-top: 20px;
+}

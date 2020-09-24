@@ -2,18 +2,23 @@
   <div id="header">
     <div class="container">
       <div class="row justify-content-between">
-        <div class="col-lg-2 m-1">
-          <img class="logo-syna" src="../assets/logo2.png" alt />
+        <div class="col-lg-3">
+          <img src="../img/LogoSynaStore.png" alt />
         </div>
-        <div class="col-lg-6 m-1">
-            <input class="form-control" type="text" placeholder="Belanja apa hari ini ... ">
+        <div class="col-lg-5">
+            <input class="form-control" type="text" placeholder="Belanja apa hari ini ...  "> 
+        </div>
+        <div class="col-lg-1 p-1">
+             <img class="favorit" src="../img/favorit.png" alt="">
+        </div>
+          <div class="col-lg-1">
+             <img class="keranjang" src="../img/keranjang.png" alt="">
         </div>
         <div class="col-lg-1">
-             <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            <button class="btn btn-outline-warning">Daftar</button>
         </div>
-        <div class="col-lg-2">
-            | <button class="btn btn-outline-warning m-1">Daftar</button>
-              <button class="btn btn-success">Masuk</button>
+        <div class="col-lg-1">
+           <button class="btn btn-success">Masuk</button>
         </div>
       </div>
     </div>
@@ -30,13 +35,6 @@ export default {
 </script>
 
 <style>
-template{
-    margin: 0px;
-    padding: 0px;
-}
 
-#header .logo-syna {
-  width: 200px;
-  height: auto;
-}
+
 </style>
